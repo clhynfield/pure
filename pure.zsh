@@ -870,6 +870,7 @@ prompt_pure_setup() {
 	PROMPT+='%(17V. %F{$prompt_pure_colors[git:arrow]}%17v%f.)'
 	PROMPT+='%(18V. %F{$prompt_pure_colors[git:stash]}${PURE_GIT_STASH_SYMBOL:-≡}%f.)'
 	PROMPT+='%(19V. %F{$prompt_pure_colors[execution_time]}%19v%f.)'
+	PROMPT+='[250C[24D%F{$prompt_pure_git_branch_color}%D{%F}%fT%F{$prompt_pure_git_branch_color}%D{%T%z}'
 
 	# Newline separating preprompt from prompt.
 	PROMPT+='${prompt_newline}'
